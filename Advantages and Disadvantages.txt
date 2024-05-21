@@ -1,0 +1,23 @@
+Advantages
+----------
+
+1) Efficiency: Automatic runway detection can streamline airport operations by automating tasks that would otherwise require manual intervention, saving time and effort.
+
+2) Scalability: Localization techniques can be applied to aerial or satellite imagery, allowing for runway detection and localization over large areas, including remote or inaccessible regions.
+
+3) Weather Adaptability: Runway detection algorithms can be designed to account for various weather conditions, improving landing and takeoff procedures even in adverse weather.
+
+4) Navigation: Runway detection enables precise navigation for pilots, ensuring they stay on the correct path during critical stages of flight.
+
+
+Disadvantages
+-------------
+
+*False Positives: There is a possibility of false positive detections, where non-runway structures or objects are mistakenly identified as runways. This can lead to incorrect guidance or navigation instructions.
+
+*Complex Environment: Runways can be located in diverse environments, such as densely populated areas or areas with irregular terrain. Detecting runways accurately in these challenging conditions can be more difficult.
+
+*Computational Complexity: Mask R-CNN, being a deep learning model, requires significant computational resources for both training and inference. This can limit its real-time application, especially when processing large amounts of data or running on resource-constrained platforms.
+
+*Performance Variation: The accuracy of localization algorithms can vary depending on factors such as lighting conditions, image quality, and runway variations (e.g., different markings, sizes, or shapes).
+
