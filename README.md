@@ -13,7 +13,7 @@ To build a vision based system using deep learning and image processing techniqu
 
 # System Model
 
-1)Creating runway detection model
+1) Creating runway detection model
 
 *All the aerial images (45 classes) from dataset are loaded and given corresponding labels
 *All images are resized to specific size
@@ -23,7 +23,7 @@ To build a vision based system using deep learning and image processing techniqu
 *Fine tune resnet50 with aerial images (training)
 *Save model
 
-2)Creating Runway localization model
+2) Creating Runway localization model
 
 *Load all images of runway from dataset
 *Annotate runway in all images using labelme package of python
@@ -32,14 +32,14 @@ To build a vision based system using deep learning and image processing techniqu
 *Train MRCNN model using image and corresponding json files
 *Save MRCNN model
 
-3)Runway detection
+3) Runway detection
 
 *Load image
 *Resize image
 *Load trained runway detection model
 *Use runway detection model to detect runway in the image
 
-4)Runway localization
+4) Runway localization
 
 *Load image
 *Resize image
